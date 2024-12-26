@@ -1,0 +1,54 @@
+body {
+    font-family: 'League Spartan', sans-serif; /* Updated font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: #d5cdc1; /* Page background color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d5cdc1; /* Match the background color to the page */
+    text-align: center; /* Center the text */
+}
+
+h1 {
+    font-size: 42px; /* Increased title size */
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.menu img {
+    width: 100%;
+    max-width: 700px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .menu img {
+        max-width: 100%;
+    }
+}
